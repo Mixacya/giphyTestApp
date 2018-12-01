@@ -83,6 +83,15 @@ public class MainActivity extends BaseActivity implements MainView {
     }
 
     @Override
+    public void onBackPressed() {
+        if (rvItems.getAdapter() instanceof GifAdapter) {
+            presenter.historyShow();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
     public void showLoading() {
         loading.setVisibility(View.VISIBLE);
     }
