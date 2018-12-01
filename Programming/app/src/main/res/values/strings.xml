@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GettyImageTestApp</string>
+
+    <string name="search">Поиск</string>
+
+    <string name="API_KEY">go2Ca2FdDgoYmiWgxa0gTHc6BcViY4vQ</string>
+</resources>

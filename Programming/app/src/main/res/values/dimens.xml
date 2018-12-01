@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="double_32dp">32dp</dimen>
+    <dimen name="default_16dp">16dp</dimen>
+    <dimen name="header_8dp">8dp</dimen>
+
+    <dimen name="image_height">194dp</dimen>
+
+    <dimen name="title_size">18sp</dimen>
+</resources>
